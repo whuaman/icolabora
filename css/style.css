@@ -119,10 +119,10 @@ img{
 	line-height: 25px;
 }
 .main > .conteudo{
-	margin-top: 500px;
+	margin-top: 650px;
 }
 .artigo{
-	margin: 15px;
+	margin: 20px;
 }
 .info_item{
 	font-size: 25px;
@@ -153,10 +153,10 @@ img{
 	font-size: 13px;
 	padding: 20px;
 	margin-top: 20px;
+	line-height: 24px;
 }
 .candidato_btn{
 	padding: 15px 15px;
-	width: 300px;
 	border: 1px solid orange;
 	border-radius: 55px;
 	text-decoration: none;
@@ -178,4 +178,21 @@ img{
 	font-size: 13px;
 	color: #808080;
 	line-height: 25px;
+}
+@media(min-width: 428px){
+	.main > .conteudo {
+    margin-top: 550px;
+}
+}
+@media (min-width: 600px) {
+	.lista_vagas{
+		display: flex;
+	}
+	.oportunidade{
+		width: 70%;
+	}
+	.canditatese{
+		width: 30%;
+
+	}
 }
