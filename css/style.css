@@ -163,7 +163,7 @@ img{
 	color: orange;
 	text-align: center;
 	display: block;
-	margin: auto;
+	margin: 20px auto;
 }
 .candidato_btn:hover{
 	background-color: orange;
@@ -179,4 +179,11 @@ img{
 	font-size: 13px;
 	color: #808080;
 	line-height: 25px;
+}
+/*-----footer-----*/
+.footer{
+	background-color: #eee;
+	padding: 30px;
+	text-align: center;
+	font-size: 14px;
 }
