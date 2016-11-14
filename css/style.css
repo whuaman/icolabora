@@ -205,9 +205,9 @@ img{
 		display: none;
 	}
 	.nav{
-	position: static;
-	width: auto;
-	transition: all 0.5s;
+		position: static;
+		width: auto;
+		transition: all 0.5s;
 	}
 	.menu{
 		display: flex;
@@ -220,4 +220,7 @@ img{
 		color: orange;
 		background: none;
 	}
+		.main > .conteudo {
+    margin-top: 450px;
+}
 }
