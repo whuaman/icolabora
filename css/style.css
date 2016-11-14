@@ -201,4 +201,23 @@ img{
 		max-width: 1000px;
 		margin: 0 auto;
 	}
+	.icon-menu{
+		display: none;
+	}
+	.nav{
+	position: static;
+	width: auto;
+	transition: all 0.5s;
+	}
+	.menu{
+		display: flex;
+	}
+	.menu_link{
+		color: #808080;
+		background: none;
+	}
+	.menu_link:hover{
+		color: orange;
+		background: none;
+	}
 }
