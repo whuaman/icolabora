@@ -196,3 +196,9 @@ img{
 
 	}
 }
+@media(min-width: 1000px){
+	.conteudo, .lista_vagas{
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
